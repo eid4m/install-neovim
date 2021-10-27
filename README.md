@@ -72,7 +72,6 @@ Abrimos el Windows Terminal y debemos abrir el archivo "init.vim" para aplicar t
 
     nvim init.vim
 
-
 > Donde "nvim", se usa para abrir el edito de código en sí y "init.vim", en este caso de ejemplo se usa para abrir el archivo o carpeta.
 
 
