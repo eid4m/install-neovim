@@ -42,9 +42,11 @@ Instale el administrador de paquetes Chocolatey ejecutando el siguiente código 
 - Una vez instalado los recursos continuaremos a instalar el edito de código.
 - Abrimos Windows PowerShell y ejecutamos el siguiente código:
 
+
     choco install neovim
 	
 Para instalar la versión pre-release
+
 
     choco install neovim --pre
 
