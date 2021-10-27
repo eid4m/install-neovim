@@ -42,7 +42,6 @@ Instale el administrador de paquetes Chocolatey ejecutando el siguiente código 
 - Una vez instalado los recursos continuaremos a instalar el edito de código.
 - Abrimos Windows PowerShell y ejecutamos el siguiente código:
 
-
     choco install neovim
 	
 Para instalar la versión pre-release
@@ -60,7 +59,6 @@ Diríjase a `C:\Users\YourUser\AppData\Local`, ahí debe haber una carpeta nombr
 
     iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
         ni "$(@($env:XDG_DATA_HOME, $env:LOCALAPPDATA)[$null -eq $env:XDG_DATA_HOME])/nvim-data/site/autoload/plug.vim" -Force
-	
     
 	
 ### Primer inicio de Neovim
@@ -68,7 +66,6 @@ Diríjase a `C:\Users\YourUser\AppData\Local`, ahí debe haber una carpeta nombr
 Abrimos el Windows Terminal y debemos abrir el archivo "init.vim" para aplicar todos los plugins pre-instalados en dicho archivo.
 - Diríjase a la siguiente dirección: `C:\Users\YourUser\AppData\Local\nvim`.
 - Ejecute el siguiente código para abrir el archivo con neovim:
-
 
     nvim init.vim
 
