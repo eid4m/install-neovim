@@ -19,14 +19,7 @@
 
 
 
-**Table of Contents**
-
-[TOCM]
-
-[TOC]
-
-
-##Recursos
+## Recursos
 - Git
 - Node.js
 - Chocolatey
@@ -34,18 +27,18 @@
 	- PowerShell v2+ (minimum is v3 for install from this website due to TLS 1.2 requirement)
 	- .NET Framework 4+ (the installation will attempt to install .NET 4.0 if you do not have it installed)(minimum is 4.5 for install from this website due to TLS 1.2 requirement)
 
-##Instalar los recursos
+## Instalar los recursos
 - Descargue e instale Git desde [aquí](http://git-scm.com/ "aquí").
 - Descargue e instale Node.js en la [versión LTS](http://nodejs.org/es/ "versión LTS").
 - Descargue el Windows Terminal desde [Microsoft Store](http://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab "Microsoft Store").
 
-###Instalar Chocolatey
+### Instalar Chocolatey
 
 Instale el administrador de paquetes Chocolatey ejecutando el siguiente código desde el Windows PowerShell **(Administrador)**:
 
     Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 	
-#Instalar  Neovim
+# Instalar  Neovim
 - Una vez instalado los recursos continuaremos a instalar el edito de código.
 - Abrimos Windows PowerShell y ejecutamos el siguiente código:
 
@@ -56,11 +49,11 @@ Para instalar la versión pre-release
 
     choco install neovim --pre
 
-##Configurar Neovim
-###Verificar el archivo init.vim
+## Configurar Neovim
+### Verificar el archivo init.vim
 
 Diríjase a `C:\Users\YourUser\AppData\Local`, ahí debe haber una carpeta nombrada "nvim", aparte de "nvim-data", si no está creela y dentro de dicha carpeta cree el archivo `init.vim` y abrelo con un editor de texto, copie y pque el siguiente [código](http://github.com/EduarCuri/my_init.vim/blob/master/init.vim "código"):
-###Instalar vim-plug
+### Instalar vim-plug
 
 - En Windows PowerShell **(Administrador)**, ejecute el siguiente código:
 
@@ -69,7 +62,7 @@ Diríjase a `C:\Users\YourUser\AppData\Local`, ahí debe haber una carpeta nombr
         ni "$(@($env:XDG_DATA_HOME, $env:LOCALAPPDATA)[$null -eq $env:XDG_DATA_HOME])/nvim-data/site/autoload/plug.vim" -Force
     
 	
-###Primer inicio de Neovim
+### Primer inicio de Neovim
 
 Abrimos el Windows Terminal y debemos abrir el archivo "init.vim" para aplicar todos los plugins pre-instalados en dicho archivo.
 - Diríjase a la siguiente dirección: `C:\Users\YourUser\AppData\Local\nvim`.
@@ -82,7 +75,7 @@ Abrimos el Windows Terminal y debemos abrir el archivo "init.vim" para aplicar t
 > Donde "nvim", se usa para abrir el edito de código en sí y "init.vim", en este caso de ejemplo se usa para abrir el archivo o carpeta.
 
 
-###Aplicar la instalación de Plugins
+### Aplicar la instalación de Plugins
 
 Una vez dentro de neovim damos `Enter`, y nos aparecerá el código del archivo init.vim.
 - Luego tipeamos `:` , y automáticamente nos mandará a la linea de abajo y escribimos el siguiente comando: `PlugInstall` y damos **Enter.**
