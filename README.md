@@ -58,9 +58,9 @@ Diríjase a `C:\Users\YourUser\AppData\Local`, ahí debe haber una carpeta nombr
 - En Windows PowerShell **(Administrador)**, ejecute el siguiente código:
 
 
-
     iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
         ni "$(@($env:XDG_DATA_HOME, $env:LOCALAPPDATA)[$null -eq $env:XDG_DATA_HOME])/nvim-data/site/autoload/plug.vim" -Force
+	
     
 	
 ### Primer inicio de Neovim
