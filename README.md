@@ -70,7 +70,6 @@ Abrimos el Windows Terminal y debemos abrir el archivo "init.vim" para aplicar t
 - Diríjase a la siguiente dirección: `C:\Users\YourUser\AppData\Local\nvim`.
 Ejecute el siguiente código para abrir el archivo con neovim:
 
-
     nvim init.vim
 
 > Donde "nvim", se usa para abrir el edito de código en sí y "init.vim", en este caso de ejemplo se usa para abrir el archivo o carpeta.
