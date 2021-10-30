@@ -48,7 +48,7 @@ Para instalar la versión pre-release
 ## Configurar Neovim
 ### Verificar el archivo init.vim
 
-Diríjase a `C:\Users\YourUser\AppData\Local`, ahí debe haber una carpeta nombrada "nvim", aparte de "nvim-data", si no está creela y dentro de dicha carpeta cree el archivo `init.vim` y abrelo con un editor de texto, copie y pque el siguiente [código](http://github.com/EduarCuri/my_init.vim/blob/master/init.vim "código"):
+Diríjase a `C:\Users\YourUser\AppData\Local`, ahí debe haber una carpeta nombrada "nvim", aparte de "nvim-data", si no está creela y dentro de dicha carpeta cree el archivo `init.vim` y abrelo con un editor de texto, copie y pegue el siguiente [código](http://github.com/EduarCuri/my_init.vim/blob/master/init.vim "código"):
 ### Instalar vim-plug
 
 En Windows PowerShell **(Administrador)**, ejecute el siguiente código:
