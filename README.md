@@ -7,12 +7,6 @@
 - Todos los recursos necesarios estaran aquí, sin necesidad de abrir otras páginas.
 - Los Plugins y temas más conocidos igualmente se encontrarán aquí.
 
-- Markdown Extras : Support ToC (Table of Contents), Emoji, Task lists, @Links...;
-- Compatible with all major browsers (IE8+), compatible Zepto.js and iPad;
-- Support identification, interpretation, fliter of the HTML tags;
-- Support TeX (LaTeX expressions, Based on KaTeX), Flowchart and Sequence Diagram of Markdown extended syntax;
-- Support AMD/CMD (Require.js & Sea.js) Module Loader, and Custom/define editor plugins;
-
 # Instalar Vim/Neovim
 
 ![](https://stsewd.dev/images/nvim/neovim-logo.png)
