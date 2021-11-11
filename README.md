@@ -4,8 +4,8 @@
 
 
 
-- Todos los recursos necesarios estaran aquí, sin necesidad de abrir otras páginas.
-- Los Plugins y temas más conocidos igualmente se encontrarán aquí.
+- Todos los recursos necesarios para instalar Neovim estaran aquí, sin necesidad de abrir otras páginas.
+- Los Plugins y temas más conocidos igualmente se encontrarán en este repositorio.
 
 # Instalar Vim/Neovim
 
