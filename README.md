@@ -69,7 +69,7 @@ Ejecute el siguiente código para abrir el archivo con neovim:
 
     nvim init.vim
 
-> Donde "nvim", se usa para abrir el edito de código en sí y "init.vim", en este caso de ejemplo se usa para abrir el archivo o carpeta.
+> Donde "nvim", se usa para abrir el editor de código en sí y "init.vim", en este caso de ejemplo se usa para abrir el archivo o carpeta.
 
 
 ### Aplicar la instalación de Plugins
