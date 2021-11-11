@@ -34,7 +34,7 @@ Instale el administrador de paquetes Chocolatey ejecutando el siguiente código 
     Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 	
 # Instalar  Neovim
-- Una vez instalado los recursos continuaremos a instalar el edito de código.
+- Una vez instalado los recursos continuaremos a instalar el editor de código.
 
 Abrimos Windows PowerShell y ejecutamos el siguiente código:
 
