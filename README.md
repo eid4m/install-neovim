@@ -17,7 +17,7 @@
 - Git
 - Node.js
 - Chocolatey
-	- Windows 7+ / Windows Server 2003+
+	- Windows 7 o posteriores / Windows Server 2003+
 	- PowerShell v2+ (minimum is v3 for install from this website due to TLS 1.2 requirement)
 	- .NET Framework 4+ (the installation will attempt to install .NET 4.0 if you do not have it installed)(minimum is 4.5 for install from this website due to TLS 1.2 requirement)
 - Windows Terminal (Recomendado)
