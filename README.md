@@ -19,7 +19,7 @@
 - Chocolatey
 	- Windows 7 o posteriores / Windows Server 2003+
 	- PowerShell v2+ (el mínimo es v3 para instalar desde este sitio web debido al requisito de TLS 1.2)
-	- .NET Framework 4+ (la instalación intentará instalar .NET 4.0 si no lo tiene instalado) (el mínimo es 4.5 para instalar desde este sitio web debido al requisito de TLS 1.2)
+	- .NET Framework 4 o posteriores (la instalación intentará instalar .NET 4.0 si no lo tiene instalado) (el mínimo es 4.5 para instalar desde este sitio web debido al requisito de TLS 1.2)
 - Windows Terminal (Recomendado)
 
 ## Instalar los recursos
