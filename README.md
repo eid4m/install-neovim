@@ -61,7 +61,7 @@ En Windows PowerShell **(Administrador)**, ejecute el siguiente código y se ins
 	
 ### Primer inicio de Neovim
 
-Abrimos el Windows Terminal y debemos abrir el archivo "init.vim" y para aplicar todos los plugins pre-instalados en dicho archivo.
+Abrimos el Windows Terminal y debemos abrir el archivo "init.vim" y para aplicar todos los plugins preinstalados en dicho archivo.
 - Diríjase a la siguiente dirección: `C:\Users\YourUser\AppData\Local\nvim`.
 
 Ejecute el siguiente código para abrir el archivo con neovim:
